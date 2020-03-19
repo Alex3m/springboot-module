@@ -1,0 +1,14 @@
+restaurant:
+  foodstuff:
+    names: potato soup, caesar salad, tiramisu
+    tax: 1.10
+
+  beverages:
+    names: soda, orange juice, milkshake
+    tax: 1.20
+
+  dishes:
+    - name: potato soup
+      price: 5
+    - name: orange juice
+      price: 4
