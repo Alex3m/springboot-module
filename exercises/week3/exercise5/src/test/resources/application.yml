@@ -1,0 +1,7 @@
+music:
+  songs:
+    - name: name1
+      genre: genre1
+    - name: name2
+      genre: genre2
+
