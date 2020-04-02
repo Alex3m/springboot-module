@@ -1,4 +1,4 @@
-package academy.everyonecodes.services;
+package academy.everyonecodes.Services;
 
 import academy.everyonecodes.data.Item;
 import org.springframework.stereotype.Service;

@@ -1,0 +1,4 @@
+urls:
+  wizardurl: http://localhost:9001/wizard
+server:
+  port: 9000

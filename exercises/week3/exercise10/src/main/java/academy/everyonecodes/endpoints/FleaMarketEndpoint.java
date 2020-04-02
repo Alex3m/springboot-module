@@ -1,7 +1,7 @@
 package academy.everyonecodes.endpoints;
 
 import academy.everyonecodes.data.Item;
-import academy.everyonecodes.services.FleaMarketService;
+import academy.everyonecodes.Services.FleaMarketService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

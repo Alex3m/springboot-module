@@ -1,0 +1,13 @@
+marathon:
+  winnerurl: http://localhost:8500/runners/winner
+  postrunnerurl: http://localhost:8500/runners
+
+runner:
+  runners:
+    - name: name1
+      duration: PT1H1M1S
+    - name: name2
+      duration: PT1H2M2S
+
+server:
+  port: 8501
