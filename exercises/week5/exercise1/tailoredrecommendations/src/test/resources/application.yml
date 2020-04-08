@@ -1,0 +1,10 @@
+tailored:
+  recommendations:
+    - userUuid: user1
+      movie:
+        title: title1
+        synopsis: synopsis1
+    - userUuid: user2
+      movie:
+        title: title2
+        synopsis: synopsis2

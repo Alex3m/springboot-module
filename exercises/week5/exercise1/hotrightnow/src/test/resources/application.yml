@@ -1,0 +1,6 @@
+moviestore:
+  movies:
+    - title: titleOne
+      synopsis: "SynopsisOne #"
+    - title: titleTwo
+      synopsis: "SynopsisTwo Wow"
