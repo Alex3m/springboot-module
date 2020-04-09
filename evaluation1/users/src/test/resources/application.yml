@@ -1,0 +1,8 @@
+accounts:
+  users:
+    - name: name1
+      email: name1@mail
+      accountType: test
+    - name: name2
+      email: name2@mail
+      accountType: test

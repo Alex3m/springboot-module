@@ -1,0 +1,7 @@
+userstore:
+  url: http://localhost:9001/users
+costs:
+  standarddeliverycost: 2.5
+  premiumdeliverycost: 0.0
+server:
+  port: 9000
