@@ -1,0 +1,8 @@
+nurse:
+  treatment: spend one day in the hospital bed
+server:
+  port: 9003
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/drhouse-treatments
