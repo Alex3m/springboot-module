@@ -7,6 +7,20 @@ public class Patient {
     private String name;
     private String symptoms;
 
+    public Patient(String name, String symptoms) {
+        this.name = name;
+        this.symptoms = symptoms;
+    }
+
+    public Patient(String uuid, String name, String symptoms) {
+        this.uuid = uuid;
+        this.name = name;
+        this.symptoms = symptoms;
+    }
+
+    public Patient() {
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -20,17 +34,6 @@ public class Patient {
     @Override
     public int hashCode() {
         return Objects.hash(uuid, name, symptoms);
-    }
-
-    public Patient(String name, String symptoms) {
-        this.name = name;
-        this.symptoms = symptoms;
-    }
-
-    public Patient(String uuid, String name, String symptoms) {
-        this.uuid = uuid;
-        this.name = name;
-        this.symptoms = symptoms;
     }
 
     public String getUuid() {
