@@ -1,0 +1,12 @@
+server:
+  port: 9001
+
+spring:
+  security:
+    user:
+      name: marcopolo
+      password: marcopolo
+messages:
+  expected: Marco
+  answer-for-expected: Polo
+  answer-for-else: What?

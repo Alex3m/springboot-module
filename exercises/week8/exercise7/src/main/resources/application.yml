@@ -1,0 +1,15 @@
+server:
+  port: 9999
+
+ancient-one:
+  username: master
+  password: secret
+  authorities: ROLE_MASTER
+order:
+  welcome-message: Mysterious Secret Order
+authority:
+  apprentices: ROLE_APPRENTICE
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/mysterious-secret-order

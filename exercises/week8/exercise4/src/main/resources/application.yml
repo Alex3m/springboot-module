@@ -1,0 +1,14 @@
+server:
+  port: 8500
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/small-business
+shop:
+  users:
+    - username: owner
+      password: owner
+      authorities: ROLE_OWNER
+    - username: premium
+      password: premium
+      authorities: ROLE_PREMIUM

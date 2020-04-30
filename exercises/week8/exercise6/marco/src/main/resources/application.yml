@@ -1,0 +1,7 @@
+server:
+  port: 9000
+user:
+  name: marcopolo
+  password: marcopolo
+polo:
+  url: http://localhost:9001/polo
