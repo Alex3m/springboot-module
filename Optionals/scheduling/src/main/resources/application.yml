@@ -1,0 +1,8 @@
+messages:
+  fixed-delay: Fixed delay message every 5 seconds
+  fixed-rate: Fixed rate message every 2 seconds
+  cron-message: "Cron message every interval"
+intervals:
+  fixed-delay: 5000
+  fixed-rate: 2000
+  cron: "0/30 0/2 9-18 ? * MON-FRI"
