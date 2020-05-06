@@ -1,0 +1,8 @@
+server:
+  port: 9100
+drivers:
+  authorities: ROLE_DRIVER
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/drivers
