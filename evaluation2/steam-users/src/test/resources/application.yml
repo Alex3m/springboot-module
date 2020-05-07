@@ -1,0 +1,9 @@
+steam:
+  login-message:
+    successful: "correct"
+  user:
+    authorities: "ROLE_USER"
+  manager:
+    username: test
+    password: test
+    authorities: testRole
